@@ -1,5 +1,5 @@
 select * from credit_card_trxn
-where datepart(year, transaction_date) = '2015' 
+where datepart(year, transaction_date) = '2015'  
 order by transaction_date;
 
 select transaction_date
